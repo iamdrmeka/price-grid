@@ -22,7 +22,8 @@ body {
   place-content: center;
   min-height: 100vh;
   background-color: var(--LightGray);
-  color: ghostwhite
+  color: ghostwhite;
+  font-family: 'Karla', sans-serif;
 }
 
 main {
@@ -46,12 +47,13 @@ main {
   color: var(--BrightYellow);
   font-size: 1.3rem;
   margin-bottom: 1.1rem;
+  font-weight: 700;
 }
 
 .gridOne p{
     color:hsl(218, 22%, 67%);
     line-height: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .gridTwo{
@@ -78,13 +80,13 @@ main {
 }
 
 .downOne h4 span{
-    font-weight: 200;
+    font-weight: 400;
     font-size: 1rem;
     margin-left: 1rem;
     transform: translateY(-5px);
     display: inline-block;
     margin-bottom: 1rem;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .signUp {
@@ -116,7 +118,7 @@ main {
 }
 
 .why {
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     color: rgba(248, 248, 255, 0.65);
 }
 
